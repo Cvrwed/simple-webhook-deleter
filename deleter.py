@@ -1,4 +1,4 @@
-import requests
+from requests import delete
 
 webhook = input("Introduce la webhook > ")
-requests.delete(webhook)
+delete(webhook)
